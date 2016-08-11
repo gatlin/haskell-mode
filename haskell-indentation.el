@@ -50,27 +50,27 @@
   :group 'haskell
   :prefix "haskell-indentation-")
 
-(defcustom haskell-indentation-layout-offset 2
+(defcustom haskell-indentation-layout-offset 4
   "Extra indentation to add before expressions in a Haskell layout list."
   :type 'integer
   :group 'haskell-indentation)
 
-(defcustom haskell-indentation-starter-offset 2
+(defcustom haskell-indentation-starter-offset 4
   "Extra indentation after an opening keyword (e.g. \"let\")."
   :type 'integer
   :group 'haskell-indentation)
 
-(defcustom haskell-indentation-left-offset 2
+(defcustom haskell-indentation-left-offset 4
   "Extra indentation after an indentation to the left (e.g. after \"do\")."
   :type 'integer
   :group 'haskell-indentation)
 
-(defcustom haskell-indentation-where-pre-offset 2
+(defcustom haskell-indentation-where-pre-offset 4
   "Extra indentation before the keyword \"where\"."
   :type 'integer
   :group 'haskell-indentation)
 
-(defcustom haskell-indentation-where-post-offset 2
+(defcustom haskell-indentation-where-post-offset 4
   "Extra indentation after the keyword \"where\"."
   :type 'integer
   :group 'haskell-indentation)
